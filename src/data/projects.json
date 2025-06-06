@@ -87,5 +87,27 @@
       "Responsive design ensuring optimal user experience across various devices."
     ],
     "takeaways": "This project exemplifies the potential of combining blockchain technology with user-centric design to create secure and decentralized communication platforms. It highlights the importance of intuitive UI/UX in facilitating user adoption of complex technologies."
+  },
+  {
+    "id": "circular-cars",
+    "name": "Circular Cars",
+    "thumbnail": "/src/assets/circular-cars-logo.svg",
+    "tags": ["Branding", "UI/UX", "Wix"],
+    "description": "A clean, trustworthy ecommerce platform for Circular Cars — a Spanish dealership specializing in quality used vehicles with a focus on transparency and customer service.",
+    "link": "https://www.circularcars.es/",
+    "heroImage": "/src/assets/circular-cars-hero.png",
+    "role": "Brand Designer, UI/UX Designer, Front-End Developer",
+    "platform": "Wix",
+    "contributions": {
+      "Brand Identity": "Developed a modern, circular-themed logo and visual identity that communicates reliability and eco-consciousness, aligning with the brand's commitment to sustainable mobility.",
+      "UI/UX Design": "Designed a user-friendly interface that highlights vehicle listings, detailed specifications, and purchasing options, ensuring an intuitive browsing experience for customers.",
+      "Front-End Development": "Implemented the design on the Wix platform, customizing templates and integrating features to facilitate seamless navigation and responsive design across devices."
+    },
+    "highlights": [
+      "Consistent branding that reinforces trust and professionalism throughout the website.",
+      "Clear presentation of vehicle information, including specifications, pricing, and high-quality images.",
+      "Responsive design ensuring optimal user experience on desktops, tablets, and mobile devices."
+    ],
+    "takeaways": "This project demonstrates the effective combination of cohesive branding, user-centric design, and practical implementation to create an ecommerce platform that meets the needs of both the business and its customers."
   }
 ]

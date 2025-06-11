@@ -32,6 +32,7 @@
     "heroImage": "/src/assets/cjt-hero.png",
     "role": "UI/UX Designer, Illustrator, Front-End Developer",
     "platform": "Webflow",
+    "overview": "Cookie Jar Tech is a Lithuania-based tech hiring platform that connects companies with vetted developers—without the hassle of traditional HR. The aim was to create a bold, energetic, and modern web presence that reflects their no-nonsense, developer-first attitude.",
     "contributions": {
       "UI/UX Design": "Designed a bold and approachable layout focused on clarity and fast navigation. The interface is friendly but professional, echoing the company's mission to make hiring stress-free.",
       "Illustration & Animation": "Created a full set of custom illustrations and iconography to represent services and concepts playfully. Integrated Lottie animations and micro-interactions to bring the brand personality to life.",
@@ -54,6 +55,7 @@
     "heroImage": "/src/assets/olde-worlde-hero.png",
     "role": "Brand Designer, UI/UX Designer, Front-End Developer",
     "platform": "Shopify",
+    "overview": "Olde Worlde is an artisan-inspired ecommerce brand offering vintage-style ironmongery, lighting, and homeware across Europe. The goal was to design a store that felt timeless and authentic—reflecting the heritage and craftsmanship behind each product.",
     "contributions": {
       "Brand Identity": "Crafted a distinct brand identity that evokes the charm of vintage craftsmanship, including logo, color palette, and typography direction.",
       "UI/UX Design": "Designed a clean and elegant layout that balances old-world aesthetics with modern usability, focusing on clear product presentation and seamless browsing.",
@@ -69,13 +71,14 @@
   {
     "id": "ranchimall-messenger",
     "name": "RanchiMall Messenger",
-    "thumbnail": "/src/assets/ranchimall-messenger-logo.svg",
+    "thumbnail": "/src/assets/rm-messenger-logo.svg",
     "tags": ["UI/UX", "Web Components", "Blockchain", "JavaScript"],
     "description": "A secure, blockchain-based messaging platform offering chat, mail, and multisig transactions—all within a privacy-first, walletless web experience.",
     "link": "https://ranchimall.github.io/messenger/#/landing",
-    "heroImage": "/src/assets/ranchimall-messenger-hero.png",
+    "heroImage": "/src/assets/rm-messenger-hero.png",
     "role": "UI/UX Designer, Front-End Developer",
     "platform": "Custom Web App",
+    "overview": "RanchiMall Messenger is a decentralized communication platform designed to combine chat, mail, and blockchain-based multisig transactions—all within a secure, privacy-focused interface. Built entirely with native Web Components and vanilla JavaScript, this project pushed the boundaries of what’s possible in the browser without any framework overhead. The goal was to create a walletless, user-friendly dApp experience that feels familiar yet offers the power of blockchain under the hood.",
     "contributions": {
       "UI/UX Design": "Designed an intuitive interface that seamlessly integrates chat, mail, and multisig transaction functionalities, ensuring a user-friendly experience across devices.",
       "Front-End Development": "Implemented the application using native Web Components and JavaScript, focusing on performance, responsiveness, and a modular architecture.",
@@ -98,6 +101,8 @@
     "heroImage": "/src/assets/circular-cars-hero.png",
     "role": "Brand Designer, UI/UX Designer, Front-End Developer",
     "platform": "Wix",
+    "overview": "Circular Cars is a Spanish automotive platform focused on buying and selling pre-owned vehicles with trust, clarity, and sustainability at its core. The goal was to build a brand and website that feels fresh, reliable, and easy to use—reflecting their mission to make second-hand car buying a modern, confidence-driven experience. ",
+
     "contributions": {
       "Brand Identity": "Developed a modern, circular-themed logo and visual identity that communicates reliability and eco-consciousness, aligning with the brand's commitment to sustainable mobility.",
       "UI/UX Design": "Designed a user-friendly interface that highlights vehicle listings, detailed specifications, and purchasing options, ensuring an intuitive browsing experience for customers.",
@@ -109,5 +114,29 @@
       "Responsive design ensuring optimal user experience on desktops, tablets, and mobile devices."
     ],
     "takeaways": "This project demonstrates the effective combination of cohesive branding, user-centric design, and practical implementation to create an ecommerce platform that meets the needs of both the business and its customers."
+  },
+  {
+    "id": "standard-ui-components",
+    "name": "Standard UI Components",
+    "thumbnail": "/src/assets/web-components-logo.svg",
+    "tags": ["Design System", "UI Library", "Web Components", "JavaScript"],
+    "description": "A native Web Components library providing reusable, standards-based UI components designed for flexibility, accessibility, and performance.",
+    "link": "https://ranchimall.github.io/standard-ui/components/",
+    "heroImage": "/src/assets/web-components-library-hero.png",
+    "role": "UI Design System Architect, Front-End Developer",
+    "platform": "Custom Web Components",
+    "overview": "Standard UI is a lightweight, framework-agnostic library of native Web Components designed to simplify modern front-end development. Built entirely with Custom Elements and Shadow DOM, the goal was to provide developers with reusable, accessible, and performant UI building blocks—without relying on frameworks or complex tooling.",
+
+    "contributions": {
+      "Design System": "Defined a cohesive set of UI components with consistent styling, behavior, and accessibility patterns to support scalable application development.",
+      "Component Design": "Designed and prototyped individual components (buttons, inputs, modals, etc.) with clear API and customization options.",
+      "Front-End Development": "Implemented each component using native Web Components standards (Custom Elements, Shadow DOM), vanilla JavaScript, and CSS, ensuring performance and interoperability."
+    },
+    "highlights": [
+      "Standards-compliant components built with Custom Elements and Shadow DOM for encapsulation.",
+      "Fully documented demo site showcasing every component with interactive examples.",
+      "Lightweight, framework-agnostic, and optimized for accessibility and modular use."
+    ],
+    "takeaways": "This project exemplifies the power of native Web Components to build a robust, reusable design system without frameworks. It underscores the importance of standards-based development, modularity, and documentation in scalable UI architecture."
   }
 ]

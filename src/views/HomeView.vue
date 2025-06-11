@@ -2,7 +2,8 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import HeroBlockText from '../components/HeroBlockText.vue'
-import { ExternalLink, Check, Mail, ArrowDown } from 'lucide-vue-next'
+import ProjectCard from '../components/ProjectCard.vue'
+import { Check, Mail, ArrowDown } from 'lucide-vue-next'
 import projects from '../data/projects.json'
 
 let mailCopied = ref(false)
@@ -18,6 +19,11 @@ function copyEmail() {
   <section class="flex justify-center items-center min-h-screen">
     <div class="grid md:grid-cols-[18rem_1fr] gap-16 justify-center m-auto max-w-[64rem] p-8">
       <div class="flex flex-col w-full gap-8">
+        <img
+          src="../assets/sairaj-mote.jpg"
+          class="aspect-square object-cover rounded-2xl"
+          alt="Sairaj Mote Profile Picture"
+        />
         <h1 class="text-2xl font-bold">
           Hi there! <br />
           I'm Sairaj Mote
@@ -55,49 +61,14 @@ function copyEmail() {
       <h1 class="text-6xl font-bold uppercase">Projects</h1>
       <ul class="gap-4">
         <li class="p-8 h-28 break-inside-avoid"></li>
-        <li
-          v-for="project in projects"
-          :key="project.name"
-          class="flex flex-col gap-4 rounded-xl border p-6 break-inside-avoid mb-4"
-        >
-          <img
-            class="max-w-[12rem] aspect-square bg-gray-100 object-contain p-8 rounded-xl"
-            :src="project.thumbnail"
-            :alt="project.name"
-          />
-          <h2 class="text-2xl font-bold">
-            {{ project.name }}
-          </h2>
-          <div class="flex gap-1 flex-wrap">
-            <p
-              class="text-sm bg-gray-200 py-1 px-2 rounded text-gray-700"
-              v-for="tag in project.tags"
-              :key="tag"
-            >
-              {{ tag }}
-            </p>
-          </div>
-          <p class="text-gray-700 text-lg whitespace-pre-line">{{ project.description }}</p>
-          <div class="flex gap-2">
-            <a
-              v-if="project.link"
-              :href="project.link"
-              target="_blank"
-              class="flex items-center gap-2 button self-start"
-              >Live
-              <ExternalLink class="inline-block" size="20" />
-            </a>
-            <RouterLink :to="`/projects/${project.id}`" class="button self-start"
-              >Read more</RouterLink
-            >
-          </div>
-        </li>
+        <ProjectCard v-for="project in projects" :key="project.name" v-bind="project">
+        </ProjectCard>
       </ul>
     </div>
   </section>
 </template>
 
-<style scoped>
+<style>
 @reference "../assets/main.css";
 .button {
   @apply bg-black py-2 px-4 rounded-lg tracking-wider text-white font-medium hover:bg-white hover:text-black border-black border-2 transition-colors duration-200 ease-in-out uppercase cursor-pointer;

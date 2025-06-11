@@ -12,7 +12,7 @@ const router = createRouter({
     {
       path: '/projects',
       name: 'projects',
-      component: () => import('../views/ProjectsView.vue')
+      redirect: '/projects/cookie-jar-tech',
     },
     {
       path: '/projects/:id',

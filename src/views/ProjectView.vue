@@ -40,12 +40,7 @@ mobileViewMediaQuery.addEventListener('change', (e) => {
       </RouterLink>
 
       <h2 class="w-full text-2xl font-bold text-gray-800">{{ name }}</h2>
-      <a
-        v-if="!isMobileView"
-        :href="link"
-        target="_blank"
-        class="flex-shrink-0 uppercase font-medium tracking-wide inline-flex items-center gap-2 text-gray-700 hover:text-gray-50 hover:bg-gray-900 px-4 py-2 rounded-md border-2 border-gray-700 transition-colors duration-200 ease-in-out"
-      >
+      <a v-if="!isMobileView" :href="link" target="_blank" class="flex-shrink-0 button">
         View Project <ExternalLink class="inline-block" size="20" />
       </a>
     </div>
@@ -109,12 +104,7 @@ mobileViewMediaQuery.addEventListener('change', (e) => {
           <p class="text-gray-700 leading-relaxed">{{ takeaways }}</p>
         </div>
       </div>
-      <a
-        v-if="isMobileView"
-        :href="link"
-        target="_blank"
-        class="fixed bottom-0 m-6 bg-white uppercase font-medium tracking-wide inline-flex items-center gap-2 text-gray-700 hover:text-gray-50 hover:bg-gray-900 px-4 py-2 rounded-md border-2 border-gray-700 transition-colors duration-200 ease-in-out"
-      >
+      <a v-if="isMobileView" :href="link" target="_blank" class="fixed bottom-0 m-6 button">
         View Project <ExternalLink class="inline-block" size="20" />
       </a>
     </div>

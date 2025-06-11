@@ -33,7 +33,7 @@ const { stop } = useIntersectionObserver(
   <li
     ref="target"
     :key="name"
-    class="flex flex-col gap-4 rounded-xl border p-6 break-inside-avoid mb-4 transition duration-500 ease-in-out"
+    class="flex flex-col gap-4 rounded-xl border p-4 md:p-6 break-inside-avoid mb-4 transition duration-500 ease-in-out"
     :class="`${targetIsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`"
   >
     <img

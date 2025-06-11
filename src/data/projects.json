@@ -138,5 +138,28 @@
       "Lightweight, framework-agnostic, and optimized for accessibility and modular use."
     ],
     "takeaways": "This project exemplifies the power of native Web Components to build a robust, reusable design system without frameworks. It underscores the importance of standards-based development, modularity, and documentation in scalable UI architecture."
+  },
+  {
+    "id": "rm-times",
+    "name": "RM Times",
+    "thumbnail": "/src/assets/rmtimes-logo.svg",
+    "tags": ["UI/UX", "Web Components", "JavaScript"],
+    "description": "A blockchain-powered article platform with reading and voting features—built as a clean, walletless web experience.",
+    "link": "https://ranchimall.github.io/rmtimes/",
+    "heroImage": "/src/assets/rmtimes-hero.png",
+    "role": "UI/UX Designer, Front-End Developer",
+    "platform": "Custom Web App",
+    "overview": "RM Times is a lightweight web application for reading, publishing, and voting on blockchain-secured articles—designed to work without requiring a crypto wallet. I crafted both the interface and the underlying web-component architecture to provide a seamless, privacy-first reading experience.",
+    "contributions": {
+      "UI/UX Design": "Created an intuitive and distraction‑free layout focused on article readability, clear navigation for publishing and voting, and a clean interface that emphasizes content.",
+      "Front‑End Development": "Built the platform using native Web Components and JavaScript, integrating decentralized voting mechanisms while maintaining performance and modularity.",
+      "Blockchain Integration": "Connected UI interactions to underlying blockchain transactions for article publication and voting, enabling secure, transparent actions without a wallet install."
+    },
+    "highlights": [
+      "Wallet‑free blockchain integration—users can read and vote without setting up a crypto wallet.",
+      "Modular, standards‑based architecture using Web Components for easy reuse and scalability.",
+      "Minimalistic and focused UI designed to foreground content and improve reading engagement."
+    ],
+    "takeaways": "RM Times demonstrates how standards‑based web technologies and thoughtful UX design can simplify access to blockchain experiences. The project emphasizes modularity, privacy, and content focus—all without complicating the user journey."
   }
 ]

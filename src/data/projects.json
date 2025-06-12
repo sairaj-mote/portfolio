@@ -161,5 +161,28 @@
       "Minimalistic and focused UI designed to foreground content and improve reading engagement."
     ],
     "takeaways": "RM Times demonstrates how standards‑based web technologies and thoughtful UX design can simplify access to blockchain experiences. The project emphasizes modularity, privacy, and content focus—all without complicating the user journey."
+  },
+  {
+    "id": "cybernetics-robotics",
+    "name": "Cybernetics Robotics & AI",
+    "thumbnail": "/src/assets/cybernetics-logo.svg",
+    "tags": ["Branding", "UI/UX", "Webflow"],
+    "description": "An AI, robotics & computer-vision solutions site built for Cybernetics — featuring intuitive design, clear service presentation, and engaging branding.",
+    "link": "https://www.cybernetics.lt/",
+    "heroImage": "/src/assets/cybernetics-hero.png",
+    "role": "Brand Designer, UI/UX Designer, Front-End Developer",
+    "platform": "Webflow",
+    "overview": "Cybernetics is a Kaunas-based technology company offering AI computer vision, robotic automation, and custom prototyping solutions. I led the project from branding and visual identity through a fully responsive Webflow site, ensuring the interface communicates technical credibility while remaining approachable to industrial clients.",
+    "contributions": {
+      "Brand Identity": "Developed a clean and modern visual identity with touches of tech-inspired design, including custom logo and color palette.",
+      "UI/UX Design": "Structured service pages to clearly outline AI vision, robotics, and prototype offerings. Crafted intuitive layouts and navigation to guide industrial clients with clarity.",
+      "Front-End Development": "Implemented the design using Webflow, building out CMS structures, service sections, and interactive elements to present advanced technology in a simple, professional format."
+    },
+    "highlights": [
+      "Straightforward presentation of technical services like AI vision and robotic solutions.",
+      "Professional branding that balances precision and accessibility.",
+      "Responsive and informative layout optimized for industrial and B2B audiences."
+    ],
+    "takeaways": "This project demonstrates how thoughtful design and branding can make complex technology accessible and trustworthy. By aligning visual identity, content, and development on Webflow, the site delivers a clear, professional, and scalable experience."
   }
 ]

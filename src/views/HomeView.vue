@@ -49,6 +49,13 @@ function filterProjects(type) {
 }
 
 filterProjects('all')
+
+function handleKeydown(e) {
+  if (e.key === 'Enter' || e.key === ' ') {
+    e.preventDefault()
+    e.target.click()
+  }
+}
 </script>
 <template>
   <section class="flex justify-center items-center min-h-screen">
@@ -97,8 +104,18 @@ filterProjects('all')
     <div class="flex md:block md:columns-2 gap-4 flex-col max-w-[64rem] m-auto">
       <div class="flex flex-col gap-4">
         <h1 class="text-6xl font-bold uppercase">Projects</h1>
-        <fieldset class="flex gap-2 flex-wrap" @change="filterProjects($event.target.value)">
-          <label class="flex group" v-for="projectType in projectTypes" :key="projectType.value">
+        <fieldset
+          class="flex gap-2 flex-wrap"
+          @change="filterProjects($event.target.value)"
+          @keydown="handleKeydown"
+        >
+          <label
+            class="flex group"
+            v-for="projectType in projectTypes"
+            :key="projectType.value"
+            tabindex="0"
+            :for="projectType.value"
+          >
             <input
               type="radio"
               name="project-type"
@@ -108,7 +125,7 @@ filterProjects('all')
               :checked="projectType.value === 'all'"
             />
             <span
-              class="flex-shrink-0 px-4 py-2 uppercase tracking-wider rounded-lg cursor-pointer bg-gray-200 hover:bg-black hover:text-white transition duration-200 ease-in-out group-has-[:checked]:bg-black group-has-[:checked]:text-white"
+              class="flex-shrink-0 px-4 py-2 uppercase tracking-wider rounded-lg cursor-pointer active:scale-95 bg-gray-200 hover:bg-black hover:text-white transition duration-200 ease-in-out group-has-[:checked]:bg-black group-has-[:checked]:text-white"
               >{{ projectType.name }}</span
             >
           </label>

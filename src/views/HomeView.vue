@@ -14,6 +14,41 @@ function copyEmail() {
     mailCopied.value = false
   }, 2000)
 }
+
+const projectTypes = [
+  {
+    name: 'All',
+    value: 'all',
+  },
+  {
+    name: 'Web App',
+    value: 'web-app',
+  },
+  {
+    name: 'Ecommerce',
+    value: 'ecommerce',
+  },
+  {
+    name: 'Brand Site',
+    value: 'brand-site',
+  },
+  {
+    name: 'Library',
+    value: 'library',
+  },
+]
+
+const filteredProjects = ref(projects)
+
+function filterProjects(type) {
+  if (type === 'all') {
+    filteredProjects.value = projects
+  } else {
+    filteredProjects.value = projects.filter((p) => p.type === type)
+  }
+}
+
+filterProjects('all')
 </script>
 <template>
   <section class="flex justify-center items-center min-h-screen">
@@ -60,10 +95,28 @@ function copyEmail() {
   </section>
   <section id="projects" class="px-6 md:px-8 py-16">
     <div class="flex md:block md:columns-2 gap-4 flex-col max-w-[64rem] m-auto">
-      <h1 class="text-6xl font-bold uppercase">Projects</h1>
+      <div class="flex flex-col gap-4">
+        <h1 class="text-6xl font-bold uppercase">Projects</h1>
+        <fieldset class="flex gap-2 flex-wrap" @change="filterProjects($event.target.value)">
+          <label class="flex group" v-for="projectType in projectTypes" :key="projectType.value">
+            <input
+              type="radio"
+              name="project-type"
+              :id="projectType.value"
+              :value="projectType.value"
+              class="hidden"
+              :checked="projectType.value === 'all'"
+            />
+            <span
+              class="flex-shrink-0 px-4 py-2 uppercase tracking-wider rounded-lg cursor-pointer bg-gray-200 hover:bg-black hover:text-white transition duration-200 ease-in-out group-has-[:checked]:bg-black group-has-[:checked]:text-white"
+              >{{ projectType.name }}</span
+            >
+          </label>
+        </fieldset>
+      </div>
       <ul class="gap-4">
         <li class="md:p-8 md:h-28 break-inside-avoid"></li>
-        <ProjectCard v-for="project in projects" :key="project.name" v-bind="project">
+        <ProjectCard v-for="project in filteredProjects" :key="project.name" v-bind="project">
         </ProjectCard>
       </ul>
     </div>

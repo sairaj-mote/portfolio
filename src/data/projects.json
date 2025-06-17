@@ -2,6 +2,7 @@
   {
     "id": "think-circular",
     "name": "Think Circular",
+    "type": "brand-site",
     "thumbnail": "/src/assets/think-circular-logo.svg",
     "tags": ["Branding", "UI/UX", "Illustration", "Wix"],
     "description": "End-to-end project for a circular fashion platform – from brand identity and custom illustrations to full website design and Wix implementation.",
@@ -25,6 +26,7 @@
   {
     "id": "cookie-jar-tech",
     "name": "Cookie Jar Tech",
+    "type": "brand-site",
     "thumbnail": "/src/assets/cjt-logo.svg",
     "tags": ["Branding", "UI/UX", "Illustration", "Webflow"],
     "description": "A fun, bold website built for Cookie Jar Tech — a platform connecting tech specialists with companies, minus the HR drama.",
@@ -48,6 +50,7 @@
   {
     "id": "olde-worlde",
     "name": "Olde Worlde",
+    "type": "ecommerce",
     "thumbnail": "/src/assets/olde-worlde-logo.svg",
     "tags": ["Branding", "UI/UX", "Shopify"],
     "description": "A nostalgic, artisan-inspired Shopify store for Olde Worlde — offering vintage-style homeware, ironmongery, and lighting with timeless charm.",
@@ -71,6 +74,7 @@
   {
     "id": "ranchimall-messenger",
     "name": "RanchiMall Messenger",
+    "type": "web-app",
     "thumbnail": "/src/assets/rm-messenger-logo.svg",
     "tags": ["UI/UX", "Web Components", "Blockchain", "JavaScript"],
     "description": "A secure, blockchain-based messaging platform offering chat, mail, and multisig transactions—all within a privacy-first, walletless web experience.",
@@ -94,6 +98,7 @@
   {
     "id": "circular-cars",
     "name": "Circular Cars",
+    "type": "ecommerce",
     "thumbnail": "/src/assets/circular-cars-logo.svg",
     "tags": ["Branding", "UI/UX", "Wix"],
     "description": "A clean, trustworthy ecommerce platform for Circular Cars — a Spanish dealership specializing in quality used vehicles with a focus on transparency and customer service.",
@@ -118,6 +123,7 @@
   {
     "id": "standard-ui-components",
     "name": "Standard UI Components",
+    "type": "library",
     "thumbnail": "/src/assets/web-components-logo.svg",
     "tags": ["Design System", "UI Library", "Web Components", "JavaScript"],
     "description": "A native Web Components library providing reusable, standards-based UI components designed for flexibility, accessibility, and performance.",
@@ -142,6 +148,7 @@
   {
     "id": "rm-times",
     "name": "RM Times",
+    "type": "web-app",
     "thumbnail": "/src/assets/rmtimes-logo.svg",
     "tags": ["UI/UX", "Web Components", "JavaScript"],
     "description": "A blockchain-powered article platform with reading and voting features—built as a clean, walletless web experience.",
@@ -165,6 +172,7 @@
   {
     "id": "cybernetics-robotics",
     "name": "Cybernetics Robotics & AI",
+    "type": "brand-site",
     "thumbnail": "/src/assets/cybernetics-logo.svg",
     "tags": ["Branding", "UI/UX", "Webflow"],
     "description": "An AI, robotics & computer-vision solutions site built for Cybernetics — featuring intuitive design, clear service presentation, and engaging branding.",

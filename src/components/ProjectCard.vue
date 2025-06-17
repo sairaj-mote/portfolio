@@ -1,6 +1,6 @@
 <script setup>
 import { useIntersectionObserver } from '@vueuse/core'
-import { ExternalLink } from 'lucide-vue-next'
+import { ExternalLink, ChevronRight } from 'lucide-vue-next'
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
@@ -55,7 +55,10 @@ const { stop } = useIntersectionObserver(
         >Live
         <ExternalLink class="inline-block" size="20" />
       </a>
-      <RouterLink :to="`/projects/${id}`" class="button self-start">Read more</RouterLink>
+      <RouterLink :to="`/projects/${id}`" class="flex items-center gap-2 button self-start">
+        Read more
+        <ChevronRight class="-mr-2" />
+      </RouterLink>
     </div>
   </li>
 </template>

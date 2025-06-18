@@ -60,19 +60,19 @@ function handleKeydown(e) {
 <template>
   <section class="flex justify-center items-center min-h-screen">
     <div
-      class="grid md:grid-cols-[18rem_1fr] gap-16 justify-center m-auto max-w-[64rem] p-6 md:p-8"
+      class="flex flex-col md:grid md:grid-cols-[18rem_1fr] gap-16 justify-center m-auto max-w-[64rem] p-6 md:p-8"
     >
-      <div class="flex flex-col w-full gap-8">
+      <div class="flex flex-col w-full gap-8 h-[calc(100vh-3rem)] md:h-auto">
         <img
           src="/sairaj-mote.webp"
-          class="aspect-square object-cover rounded-2xl"
+          class="aspect-square object-cover rounded-2xl max-w-[16rem]"
           alt="Sairaj Mote Profile Picture"
         />
         <h1 class="text-2xl font-bold">
           Hi there! <br />
           I'm Sairaj Mote
         </h1>
-        <div class="h-48 w-[1px] bg-black"></div>
+        <div class="h-full flex-1 md:h-48 w-[1px] bg-black"></div>
         <div class="flex flex-col gap-2 items-start">
           <RouterLink to="#projects" class="button flex gap-2 items-center">
             <ArrowDown />

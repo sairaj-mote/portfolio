@@ -66,11 +66,7 @@ mobileViewMediaQuery.addEventListener('change', (e) => {
         <div class="text-lg flex flex-col gap-2">
           <h3 class="font-semibold text-gray-700">Platform</h3>
           <div class="flex">
-            <img
-              class="w-16"
-              :src="`/src/assets/icons/platforms/${platform}.svg`"
-              :alt="`${platform} icon`"
-            />
+            <img class="w-16" :src="`/icons/platforms/${platform}.svg`" :alt="`${platform} icon`" />
           </div>
         </div>
 

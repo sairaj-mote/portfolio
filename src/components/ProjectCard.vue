@@ -45,7 +45,7 @@ const { stop } = useIntersectionObserver(
       />
       <img
         class="absolute top-0 right-0 w-16 h-16 bg-gray-100 object-contain p-4 rounded-xl"
-        :src="`/src/assets/icons/platforms/${platform}.svg`"
+        :src="`/icons/platforms/${platform}.svg`"
         :alt="`${platform} icon`"
       />
     </div>

@@ -64,7 +64,7 @@ function handleKeydown(e) {
     >
       <div class="flex flex-col w-full gap-8">
         <img
-          src="../assets/sairaj-mote.webp"
+          src="/sairaj-mote.webp"
           class="aspect-square object-cover rounded-2xl"
           alt="Sairaj Mote Profile Picture"
         />

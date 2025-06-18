@@ -4,13 +4,14 @@ import { ExternalLink, ChevronRight } from 'lucide-vue-next'
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-const { name, thumbnail, tags, link, description } = defineProps({
+const { name, thumbnail, tags, link, description, id, platform } = defineProps({
   name: String,
   thumbnail: String,
   tags: Array,
   link: String,
   description: String,
   id: String,
+  platform: String,
 })
 
 const target = ref(null)
@@ -36,11 +37,18 @@ const { stop } = useIntersectionObserver(
     class="flex flex-col gap-4 rounded-xl border p-4 md:p-6 break-inside-avoid mb-4 transition duration-500 ease-in-out"
     :class="`${targetIsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`"
   >
-    <img
-      class="max-w-[12rem] aspect-square bg-gray-100 object-contain p-8 rounded-xl"
-      :src="thumbnail"
-      :alt="name"
-    />
+    <div class="flex relative">
+      <img
+        class="max-w-[12rem] w-full aspect-square bg-gray-100 object-contain p-8 rounded-xl"
+        :src="thumbnail"
+        :alt="name"
+      />
+      <img
+        class="absolute top-0 right-0 w-16 h-16 bg-gray-100 object-contain p-4 rounded-xl"
+        :src="`/src/assets/icons/platforms/${platform}.svg`"
+        :alt="`${platform} icon`"
+      />
+    </div>
     <h2 class="text-2xl font-bold">
       {{ name }}
     </h2>

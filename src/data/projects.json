@@ -130,7 +130,7 @@
     "link": "https://ranchimall.github.io/standard-ui/components/",
     "heroImage": "/src/assets/web-components-library-hero.png",
     "role": "UI Design System Architect, Front-End Developer",
-    "platform": "Custom Web Components",
+    "platform": "Custom Web App",
     "overview": "Standard UI is a lightweight, framework-agnostic library of native Web Components designed to simplify modern front-end development. Built entirely with Custom Elements and Shadow DOM, the goal was to provide developers with reusable, accessible, and performant UI building blocks—without relying on frameworks or complex tooling.",
 
     "contributions": {
@@ -192,5 +192,30 @@
       "Responsive and informative layout optimized for industrial and B2B audiences."
     ],
     "takeaways": "This project demonstrates how thoughtful design and branding can make complex technology accessible and trustworthy. By aligning visual identity, content, and development on Webflow, the site delivers a clear, professional, and scalable experience."
+  },
+  {
+    "id": "exchange-market",
+    "name": "Exchange Market",
+    "type": "web-app",
+    "thumbnail": "/src/assets/exchange-market-logo.svg",
+    "tags": ["UI/UX", "Web Components", "Blockchain", "JavaScript"],
+    "description": "A real-time cryptocurrency exchange interface displaying live market data, built with a focus on performance and standards-based technology.",
+    "link": "https://ranchimall.github.io/exchangemarket",
+    "heroImage": "/src/assets/exchange-market-hero.png",
+    "role": "UI/UX Designer, Front-End Developer",
+    "platform": "Custom Web App",
+    "overview": "Exchange Market is a front-end application that provides a real-time, data-driven view of cryptocurrency trading pairs. The project was conceived as a lightweight, high-performance interface for tracking markets like FLO/BTC. Built entirely with native Web Components and vanilla JavaScript, the goal was to create a modular and easily embeddable market tracker that works efficiently without the overhead of a large framework.",
+    "contributions": {
+      "UI/UX Design": "Designed a clean, data-centric interface that prioritizes clarity and at-a-glance readability of market statistics. Implemented a responsive layout and a theme-switcher for user comfort (light/dark modes).",
+      "Front-End Development": "Engineered the application using native Web Components, ensuring a performant, real-time data display. Architected the app for modularity, making individual components reusable and easy to maintain.",
+      "Data Integration": "Connected the front-end components to a live data source to fetch and display real-time cryptocurrency exchange rates, volumes, and spreads."
+    },
+    "highlights": [
+      "Real-time data visualization for multiple cryptocurrency exchange pairs.",
+      "Built with native Web Components for exceptional performance and encapsulation, free from framework dependencies.",
+      "Features a user-friendly light/dark mode theme switcher for enhanced visual comfort during extended use.",
+      "Fully responsive design that adapts to various screen sizes, from mobile to desktop."
+    ],
+    "takeaways": "This project highlights the power of vanilla JavaScript and Web Components for building high-performance, real-time financial data applications. It demonstrates that for data-intensive UIs, a lightweight, standards-based approach can offer significant advantages in speed, modularity, and maintainability."
   }
 ]

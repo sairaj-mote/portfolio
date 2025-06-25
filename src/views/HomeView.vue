@@ -109,7 +109,7 @@ function handleKeydown(e) {
     >
       <div class="flex flex-col w-full gap-8 h-[calc(100vh-7rem)] md:h-auto">
         <img
-          src="/sairaj-mote.webp"
+          src="/me.webp"
           class="aspect-square object-cover rounded-2xl max-w-[16rem]"
           alt="Sairaj Mote Profile Picture"
         />

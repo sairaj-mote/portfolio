@@ -34,7 +34,7 @@ const { stop } = useIntersectionObserver(
   <li
     ref="target"
     :key="name"
-    class="flex flex-col gap-4 rounded-xl border p-4 md:p-6 break-inside-avoid mb-4 transition duration-500 ease-in-out"
+    class="flex flex-col gap-4 rounded-xl border p-4 md:p-6 break-inside-avoid mb-2 transition duration-500 ease-in-out"
     :class="`${targetIsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`"
   >
     <div class="flex relative">
@@ -64,7 +64,7 @@ const { stop } = useIntersectionObserver(
         <ExternalLink class="inline-block" size="20" />
       </a>
       <RouterLink :to="`/projects/${id}`" class="flex items-center gap-2 button self-start">
-        Read more
+        Case Study
         <ChevronRight class="-mr-2" />
       </RouterLink>
     </div>

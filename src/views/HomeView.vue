@@ -176,7 +176,7 @@ function handleKeydown(e) {
           </label>
         </fieldset>
       </div>
-      <ul class="gap-4">
+      <ul class="flex flex-col gap-2">
         <li class="md:p-8 md:h-28 break-inside-avoid"></li>
         <ProjectCard v-for="project in filteredProjects" :key="project.name" v-bind="project">
         </ProjectCard>

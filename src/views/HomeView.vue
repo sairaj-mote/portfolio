@@ -135,7 +135,7 @@ function handleKeydown(e) {
           </button>
         </div>
       </div>
-      <div class="flex flex-col flex-grow bg-white gap-12 max-w-[30rem]">
+      <div class="flex flex-col flex-grow gap-12 max-w-[30rem]">
         <HeroBlockText />
         <h2 class="font-medium text-gray-700 leading-8 text-xl">
           With a passion for clean design and clean code, I craft user interfaces that not only look
@@ -192,7 +192,7 @@ function handleKeydown(e) {
 <style>
 body {
   background: white;
-  background-image: radial-gradient(#aaa 1px, transparent 0);
+  background-image: radial-gradient(#ccc 1px, transparent 0);
   background-size: 40px 40px;
   background-position: -19px -19px;
 }

@@ -36,7 +36,7 @@ const { stop } = useIntersectionObserver(
     ref="target"
     :key="name"
     class="relative flex flex-col md:flex-row-reverse gap-4 rounded-xl transition duration-500 ease-in-out md:bg-gray-50 md:p-6 md:border-1 border-gray-200"
-    :class="`${targetIsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`"
+    :class="`${targetIsVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-95'}`"
   >
     <div class="flex relative flex-1">
       <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="name" />

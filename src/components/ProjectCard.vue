@@ -12,6 +12,7 @@ const { name, thumbnail, tags, link, description, id, platform } = defineProps({
   description: String,
   id: String,
   platform: String,
+  heroImage: String,
 })
 
 const target = ref(null)
@@ -34,39 +35,45 @@ const { stop } = useIntersectionObserver(
   <li
     ref="target"
     :key="name"
-    class="flex flex-col gap-4 rounded-xl border p-4 md:p-6 break-inside-avoid mb-2 transition duration-500 ease-in-out"
+    class="relative flex flex-col md:flex-row-reverse gap-4 rounded-xl transition duration-500 ease-in-out md:bg-gray-50 md:p-6 md:border-1 border-gray-200"
     :class="`${targetIsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`"
   >
-    <div class="flex relative">
-      <img
-        class="max-w-[12rem] w-full aspect-square bg-gray-100 object-contain p-8 rounded-xl"
-        :src="thumbnail"
-        :alt="name"
-      />
-      <img
-        class="absolute top-0 right-0 w-16 h-16 bg-gray-100 object-contain p-4 rounded-xl"
-        :src="`/icons/platforms/${platform}.svg`"
-        :alt="`${platform} icon`"
-      />
+    <div class="flex relative flex-1">
+      <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="name" />
     </div>
-    <h2 class="text-2xl font-bold">
-      {{ name }}
-    </h2>
-    <div class="flex gap-1 flex-wrap">
-      <p class="text-sm bg-gray-200 py-1 px-2 rounded text-gray-700" v-for="tag in tags" :key="tag">
-        {{ tag }}
-      </p>
-    </div>
-    <p class="text-gray-700 text-lg whitespace-pre-line">{{ description }}</p>
-    <div class="flex gap-2">
-      <a v-if="link" :href="link" target="_blank" class="flex items-center gap-2 button self-start"
-        >Live
-        <ExternalLink class="inline-block" size="20" />
-      </a>
-      <RouterLink :to="`/projects/${id}`" class="flex items-center gap-2 button self-start">
-        Case Study
-        <ChevronRight class="-mr-2" />
-      </RouterLink>
+    <img
+      class="absolute top-0 right-0 w-16 h-16 bg-gray-100 object-contain p-4 rounded-xl"
+      :src="`/icons/platforms/${platform}.svg`"
+      :alt="`${platform} icon`"
+    />
+    <div class="flex flex-col gap-4 flex-1">
+      <h2 class="text-2xl font-bold">
+        {{ name }}
+      </h2>
+      <div class="flex gap-1 flex-wrap">
+        <p
+          class="text-sm bg-gray-200 py-1 px-2 rounded text-gray-700"
+          v-for="tag in tags"
+          :key="tag"
+        >
+          {{ tag }}
+        </p>
+      </div>
+      <p class="text-gray-700 text-lg whitespace-pre-line">{{ description }}</p>
+      <div class="flex gap-2">
+        <a
+          v-if="link"
+          :href="link"
+          target="_blank"
+          class="flex items-center gap-2 button self-start"
+          >Live
+          <ExternalLink class="inline-block" size="20" />
+        </a>
+        <RouterLink :to="`/projects/${id}`" class="flex items-center gap-2 button self-start">
+          Case Study
+          <ChevronRight class="-mr-2" />
+        </RouterLink>
+      </div>
     </div>
   </li>
 </template>

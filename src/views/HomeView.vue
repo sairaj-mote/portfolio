@@ -42,9 +42,9 @@ const filteredProjects = ref(projects)
 
 function filterProjects(type) {
   if (type === 'all') {
-    filteredProjects.value = projects
+    filteredProjects.value = projects.filter((p) => !p.ignore)
   } else {
-    filteredProjects.value = projects.filter((p) => p.type === type)
+    filteredProjects.value = projects.filter((p) => !p.ignore && p.type === type)
   }
 }
 
@@ -146,7 +146,7 @@ function handleKeydown(e) {
     </div>
   </section>
   <section id="projects" class="px-6 md:px-8 py-16">
-    <div class="flex md:block md:columns-2 gap-4 flex-col max-w-[64rem] m-auto">
+    <div class="flex gap-8 flex-col max-w-[72rem] m-auto">
       <div class="flex flex-col gap-4">
         <h1 class="text-6xl font-bold uppercase">Projects</h1>
         <fieldset
@@ -176,8 +176,7 @@ function handleKeydown(e) {
           </label>
         </fieldset>
       </div>
-      <ul class="flex flex-col gap-2">
-        <li class="md:p-8 md:h-28 break-inside-avoid"></li>
+      <ul class="flex flex-col md:gap-8 gap-y-16">
         <ProjectCard v-for="project in filteredProjects" :key="project.name" v-bind="project">
         </ProjectCard>
       </ul>

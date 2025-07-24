@@ -48,6 +48,30 @@
     "takeaways": "This project exemplifies the potential of combining blockchain technology with user-centric design to create secure and decentralized communication platforms. It highlights the importance of intuitive UI/UX in facilitating user adoption of complex technologies."
   },
   {
+    "id": "btc-wallet",
+    "name": "BTC Wallet",
+    "thumbnail": "/btc-wallet-logo.svg",
+    "tags": ["UI/UX", "Web Components", "Blockchain", "JavaScript"],
+    "description": "A real-time Bitcoin wallet inspector that provides detailed balance and transaction history for any public BTC address.",
+    "link": "https://ranchimall.github.io/btcwallet/#/check_details?query=bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh&currency=usd",
+    "heroImage": "/btc-wallet-hero.webp",
+    "role": "UI/UX Designer, Front-End Developer",
+    "platform": "Custom Web App",
+    "overview": "The BTC Wallet is a lightweight, client-side tool for instantly viewing the details of any public Bitcoin address. The goal was to create a fast, private, and easy-to-use utility that allows users to check wallet balances, view transaction histories, and see conversions in different fiat currencies without needing to log in or connect a wallet. Built with native Web Components, it's designed for performance and simplicity.",
+    "contributions": {
+      "UI/UX Design": "Designed a clean, intuitive interface focused on data clarity. The layout prioritizes the most critical information—such as total balance and transaction count—while presenting detailed transaction logs in an easy-to-scan format.",
+      "Front-End Development": "Engineered the application using native Web Components and vanilla JavaScript to ensure a fast and responsive user experience. Implemented the logic to fetch and parse data from a public Bitcoin blockchain API.",
+      "API Integration": "Integrated a blockchain explorer API to fetch live wallet data, including balance, transaction details, and current BTC prices for accurate fiat currency conversion."
+    },
+    "highlights": [
+      "Instantly fetches and displays the balance and transaction history for any valid Bitcoin address.",
+      "Provides real-time balance conversion in multiple fiat currencies (USD, INR, etc.).",
+      "Built as a lightweight, framework-free web app for maximum speed and accessibility.",
+      "Clean, responsive UI that makes complex transaction data easy to read and understand on any device."
+    ],
+    "takeaways": "This project demonstrates the ability to create practical, data-driven tools for the blockchain space. It showcases strong skills in API integration and front-end development, proving that a focus on clean UI and performance can make interacting with complex blockchain data simple and accessible for everyone."
+  },
+  {
     "id": "think-circular",
     "name": "Think Circular",
     "type": "brand-site",
@@ -97,6 +121,7 @@
     "takeaways": "Olde Worlde demonstrates how thoughtful design and tailored development can create an ecommerce experience that feels both charming and intuitive. From brand to cart, every detail was crafted to match the warmth and quality of the products themselves."
   },
   {
+    "ignore": true,
     "id": "circular-cars",
     "name": "Circular Cars",
     "type": "ecommerce",
@@ -120,30 +145,6 @@
       "Responsive design ensuring optimal user experience on desktops, tablets, and mobile devices."
     ],
     "takeaways": "This project demonstrates the effective combination of cohesive branding, user-centric design, and practical implementation to create an ecommerce platform that meets the needs of both the business and its customers."
-  },
-  {
-    "id": "btc-wallet",
-    "name": "BTC Wallet",
-    "thumbnail": "/btc-wallet-logo.svg",
-    "tags": ["UI/UX", "Web Components", "Blockchain", "JavaScript"],
-    "description": "A real-time Bitcoin wallet inspector that provides detailed balance and transaction history for any public BTC address.",
-    "link": "https://ranchimall.github.io/btcwallet/#/check_details?query=bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh&currency=usd",
-    "heroImage": "/btc-wallet-hero.webp",
-    "role": "UI/UX Designer, Front-End Developer",
-    "platform": "Custom Web App",
-    "overview": "The BTC Wallet is a lightweight, client-side tool for instantly viewing the details of any public Bitcoin address. The goal was to create a fast, private, and easy-to-use utility that allows users to check wallet balances, view transaction histories, and see conversions in different fiat currencies without needing to log in or connect a wallet. Built with native Web Components, it's designed for performance and simplicity.",
-    "contributions": {
-      "UI/UX Design": "Designed a clean, intuitive interface focused on data clarity. The layout prioritizes the most critical information—such as total balance and transaction count—while presenting detailed transaction logs in an easy-to-scan format.",
-      "Front-End Development": "Engineered the application using native Web Components and vanilla JavaScript to ensure a fast and responsive user experience. Implemented the logic to fetch and parse data from a public Bitcoin blockchain API.",
-      "API Integration": "Integrated a blockchain explorer API to fetch live wallet data, including balance, transaction details, and current BTC prices for accurate fiat currency conversion."
-    },
-    "highlights": [
-      "Instantly fetches and displays the balance and transaction history for any valid Bitcoin address.",
-      "Provides real-time balance conversion in multiple fiat currencies (USD, INR, etc.).",
-      "Built as a lightweight, framework-free web app for maximum speed and accessibility.",
-      "Clean, responsive UI that makes complex transaction data easy to read and understand on any device."
-    ],
-    "takeaways": "This project demonstrates the ability to create practical, data-driven tools for the blockchain space. It showcases strong skills in API integration and front-end development, proving that a focus on clean UI and performance can make interacting with complex blockchain data simple and accessible for everyone."
   },
   {
     "id": "standard-ui-components",

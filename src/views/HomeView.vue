@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import HeroBlockText from '../components/HeroBlockText.vue'
+import FooterThankYou from '@/components/FooterThankYou.vue'
 import ProjectCard from '../components/ProjectCard.vue'
 import { Check, Mail, ArrowDown } from 'lucide-vue-next'
 import projects from '../data/projects.json'
@@ -182,9 +183,19 @@ function handleKeydown(e) {
       </ul>
     </div>
   </section>
+  <footer class="flex flex-col gap-4 items-center py-16 max-w-[72rem] m-auto px-6">
+    <FooterThankYou />
+    <p class="text-sm text-gray-700">&copy; {{ new Date().getFullYear() }} Sairaj Mote</p>
+  </footer>
 </template>
 
 <style>
+body {
+  background: white;
+  background-image: radial-gradient(#aaa 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
 @reference "../assets/main.css";
 .button {
   @apply bg-black py-2 px-4 rounded-lg tracking-wider

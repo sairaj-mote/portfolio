@@ -121,6 +121,30 @@
     "takeaways": "Olde Worlde demonstrates how thoughtful design and tailored development can create an ecommerce experience that feels both charming and intuitive. From brand to cart, every detail was crafted to match the warmth and quality of the products themselves."
   },
   {
+    "id": "cabinhold",
+    "name": "CabinHold",
+    "type": "ecommerce",
+    "thumbnail": "/src/assets/cabinhold-logo.svg",
+    "tags": ["Branding", "UI/UX", "Shopify"],
+    "description": "An eco-conscious travel luggage store with clean branding and Shopify implementation, built around sustainability and user-friendly shopping.",
+    "link": "https://cabinhold.com",
+    "heroImage": "/cabinhold-hero.webp",
+    "role": "Brand Designer, UI/UX Designer, Front-End Developer",
+    "platform": "Shopify",
+    "overview": "CabinHold is a UK-founded brand offering compact, airline-compatible backpacks made from recycled materials. I developed its visual identity and implemented a full storefront on Shopify, designed to highlight product features, eco values, and smooth e-commerce flow.",
+    "contributions": {
+      "Brand Identity": "Created a minimalist logo, color palette, and visual style aligned with eco-aware travel aesthetics.",
+      "UI/UX Design": "Designed clean product listings and intuitive checkout flows, focusing on sustainable features and easy browsing.",
+      "Front-End Development": "Built the Shopify site from concept to launch, customizing the theme, mobile views, and product sections for speed and usability."
+    },
+    "highlights": [
+      "Sustainability messaging with visual clarity, reflecting eco-friendly materials and compact sizing.",
+      "Straightforward Shopify build with clean navigation, fast product browsing, and responsive layout.",
+      "Consistent design system integrating product visuals, iconography, and user-focused copy."
+    ],
+    "takeaways": "This project shows how branding and design can elevate a product story—by blending visual clarity, eco values, and a streamlined Shopify experience to build trust and usability."
+  },
+  {
     "ignore": true,
     "id": "circular-cars",
     "name": "Circular Cars",
@@ -184,16 +208,16 @@
     "platform": "Custom Web App",
     "overview": "RM Times is a lightweight web application for reading, publishing, and voting on blockchain-secured articles—designed to work without requiring a crypto wallet. I crafted both the interface and the underlying web-component architecture to provide a seamless, privacy-first reading experience.",
     "contributions": {
-      "UI/UX Design": "Created an intuitive and distraction‑free layout focused on article readability, clear navigation for publishing and voting, and a clean interface that emphasizes content.",
-      "Front‑End Development": "Built the platform using native Web Components and JavaScript, integrating decentralized voting mechanisms while maintaining performance and modularity.",
+      "UI/UX Design": "Created an intuitive and distraction-free layout focused on article readability, clear navigation for publishing and voting, and a clean interface that emphasizes content.",
+      "Front-End Development": "Built the platform using native Web Components and JavaScript, integrating decentralized voting mechanisms while maintaining performance and modularity.",
       "Blockchain Integration": "Connected UI interactions to underlying blockchain transactions for article publication and voting, enabling secure, transparent actions without a wallet install."
     },
     "highlights": [
-      "Wallet‑free blockchain integration—users can read and vote without setting up a crypto wallet.",
-      "Modular, standards‑based architecture using Web Components for easy reuse and scalability.",
+      "Wallet-free blockchain integration—users can read and vote without setting up a crypto wallet.",
+      "Modular, standards-based architecture using Web Components for easy reuse and scalability.",
       "Minimalistic and focused UI designed to foreground content and improve reading engagement."
     ],
-    "takeaways": "RM Times demonstrates how standards‑based web technologies and thoughtful UX design can simplify access to blockchain experiences. The project emphasizes modularity, privacy, and content focus—all without complicating the user journey."
+    "takeaways": "RM Times demonstrates how standards-based web technologies and thoughtful UX design can simplify access to blockchain experiences. The project emphasizes modularity, privacy, and content focus—all without complicating the user journey."
   },
   {
     "id": "cybernetics-robotics",

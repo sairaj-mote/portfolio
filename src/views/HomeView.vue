@@ -1,11 +1,20 @@
 <script setup>
-import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
+import { ref, computed } from 'vue'
+import { RouterLink, useRouter } from 'vue-router'
 import HeroBlockText from '../components/HeroBlockText.vue'
 import FooterThankYou from '@/components/FooterThankYou.vue'
 import ProjectCard from '../components/ProjectCard.vue'
 import { Check, Mail, ArrowDown } from 'lucide-vue-next'
 import projects from '../data/projects.json'
+
+const props = defineProps({
+  filter: {
+    type: String,
+    default: 'all',
+  },
+})
+
+const router = useRouter()
 
 let mailCopied = ref(false)
 function copyEmail() {
@@ -17,39 +26,26 @@ function copyEmail() {
 }
 
 const projectTypes = [
-  {
-    name: 'All',
-    value: 'all',
-  },
-  {
-    name: 'Web App',
-    value: 'web-app',
-  },
-  {
-    name: 'Ecommerce',
-    value: 'ecommerce',
-  },
-  {
-    name: 'Brand Site',
-    value: 'brand-site',
-  },
-  {
-    name: 'Library',
-    value: 'library',
-  },
+  { name: 'All', value: 'all' },
+  { name: 'Web App', value: 'web-app' },
+  { name: 'Ecommerce', value: 'ecommerce' },
+  { name: 'Brand Site', value: 'brand-site' },
+  { name: 'Library', value: 'library' },
 ]
 
-const filteredProjects = ref(projects)
-
-function filterProjects(type) {
-  if (type === 'all') {
-    filteredProjects.value = projects.filter((p) => !p.ignore)
-  } else {
-    filteredProjects.value = projects.filter((p) => !p.ignore && p.type === type)
+const filteredProjects = computed(() => {
+  if (props.filter === 'all') {
+    return projects.filter((p) => !p.ignore)
   }
-}
+  return projects.filter((p) => !p.ignore && p.type === props.filter)
+})
 
-filterProjects('all')
+function setFilter(type) {
+  router.push({
+    hash: '#projects',
+    query: { filter: type === 'all' ? undefined : type },
+  })
+}
 
 function handleKeydown(e) {
   if (e.key === 'Enter' || e.key === ' ') {
@@ -58,6 +54,7 @@ function handleKeydown(e) {
   }
 }
 </script>
+
 <template>
   <header class="w-full sticky top-0 bg-white/90 backdrop-blur-lg z-10">
     <div class="flex gap-2 p-4 max-w-[64rem] w-full m-auto">
@@ -152,7 +149,7 @@ function handleKeydown(e) {
         <h1 class="text-6xl font-bold uppercase">Projects</h1>
         <fieldset
           class="flex gap-2 flex-wrap"
-          @change="filterProjects($event.target.value)"
+          @change="setFilter($event.target.value)"
           @keydown="handleKeydown"
         >
           <label
@@ -168,7 +165,7 @@ function handleKeydown(e) {
               :id="projectType.value"
               :value="projectType.value"
               class="hidden"
-              :checked="projectType.value === 'all'"
+              :checked="projectType.value === filter"
             />
             <span
               class="flex-shrink-0 px-4 py-2 uppercase tracking-wider rounded-lg cursor-pointer active:scale-95 bg-gray-200 hover:bg-black hover:text-white transition duration-200 ease-in-out group-has-[:checked]:bg-black group-has-[:checked]:text-white"
@@ -196,7 +193,7 @@ body {
   background-size: 40px 40px;
   background-position: -19px -19px;
 }
-@reference "../assets/main.css";
+@reference '../assets/main.css';
 .button {
   @apply bg-black py-2 px-4 rounded-lg tracking-wider
    text-white font-medium hover:bg-white hover:text-black border-black border-2 

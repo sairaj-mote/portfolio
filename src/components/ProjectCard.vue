@@ -4,7 +4,7 @@ import { ExternalLink, ChevronRight } from 'lucide-vue-next'
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-const { name, thumbnail, tags, link, description, id, platform } = defineProps({
+const { name, tags, link, description, id, platform } = defineProps({
   name: String,
   thumbnail: String,
   tags: Array,
@@ -20,7 +20,7 @@ const targetIsVisible = ref(false)
 
 const { stop } = useIntersectionObserver(
   target,
-  ([entry], observerElement) => {
+  ([entry]) => {
     targetIsVisible.value = entry?.isIntersecting || false
     if (entry.isIntersecting) {
       stop()
@@ -39,7 +39,7 @@ const { stop } = useIntersectionObserver(
     :class="`${targetIsVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-95'}`"
   >
     <div class="flex relative flex-1">
-      <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="name" />
+      <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="name" loading="lazy" />
     </div>
     <img
       class="absolute top-0 right-0 w-16 h-16 bg-gray-100 object-contain p-4 rounded-xl"

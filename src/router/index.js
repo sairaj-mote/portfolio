@@ -8,6 +8,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      props: (route) => ({ filter: route.query.filter || 'all' }),
     },
     {
       path: '/projects',
@@ -17,7 +18,7 @@ const router = createRouter({
     {
       path: '/projects/:id',
       name: 'project',
-      component: () => import('../views/ProjectView.vue')
+      component: () => import('../views/ProjectView.vue'),
     },
   ],
   scrollBehavior(to, from, savedPosition) {

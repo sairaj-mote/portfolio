@@ -1,0 +1,646 @@
+[
+  {
+    "id": "cookie-jar-tech",
+    "slug": "cookie-jar-tech",
+    "type": "brand-site",
+    "title": "From Blank Canvas to Bold Brand: Designing & Building the Digital Presence for Cookie Jar Tech",
+    "subtitle": "A 0-to-1 project combining UI/UX, illustration, and front-end development to launch a memorable tech hiring platform in Lithuania.",
+    "heroImage": "/images/cookie-jar-tech/hero.png",
+    "link": "https://www.cookiejartech.lt/",
+    "tags": ["Branding", "UI/UX", "Illustration", "Webflow"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Opportunity: Cutting Through the Noise",
+        "content": [
+          "Cookie Jar Tech is a Lithuania-based tech hiring platform that connects companies with vetted developers—without the hassle of traditional HR. The aim was to create a bold, energetic, and modern web presence that reflects their no-nonsense, developer-first attitude.",
+          "The opportunity was to build a digital presence from scratch that would immediately signal their core values: speed, transparency, and a developer-first attitude."
+        ],
+        "role": {
+          "title": "My Role: The End-to-End Digital Creator",
+          "description": "As the sole designer and developer, I was responsible for the entire project lifecycle, from initial concept to the final, live website.",
+          "contributions": [
+            {
+              "title": "UI/UX Design",
+              "description": "Designed a bold and approachable layout focused on clarity and fast navigation. The interface is friendly but professional, echoing the company's mission to make hiring stress-free."
+            },
+            {
+              "title": "Illustration & Animation",
+              "description": "Created a full set of custom illustrations and iconography to represent services and concepts playfully. Integrated Lottie animations and micro-interactions to bring the brand personality to life."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Developed the entire site using Webflow. Ensured responsive layouts, fluid interactions, and minimal JS where needed for performance. Used Webflow’s native animation features to deliver a lively user experience."
+            }
+          ]
+        }
+      },
+      {
+        "type": "impact",
+        "title": "The Impact: A Memorable Digital Experience",
+        "description": "The final product is a direct reflection of the initial goal: a bold, energetic, and modern web presence that breaks away from the traditional tech hiring mould.",
+        "highlights": [
+          "Strong branding with a fun, modern tone that breaks away from traditional tech hiring platforms.",
+          "Fully animated hero section and interactive illustrations to engage users.",
+          "Highly responsive across all devices, with fluid transitions and subtle micro-interactions."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project showcases the power of combining clear UX strategy, playful yet informative visuals, and performance-optimized development.",
+          "It proved how branding, design, and motion can elevate a niche service platform into a memorable digital experience.",
+          "Handling all three roles (design, illustration, development) allowed for a fluid workflow and a more polished final product."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ranchimall-messenger",
+    "slug": "ranchimall-messenger",
+    "type": "web-app",
+    "title": "Decentralized Communication, Simplified: Designing a Unified dApp for Chat, Mail, and Transactions",
+    "subtitle": "A 0-to-1 project building a secure, privacy-focused communication platform using native Web Components and the FLO blockchain.",
+    "heroImage": "/images/ranchimall-messenger/hero.png",
+    "link": "https://ranchimall.github.io/messenger/#/landing",
+    "tags": ["dApp", "UI/UX", "Web Components", "Blockchain"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Problem: The Fragmentation of Decentralized Apps",
+        "content": [
+          "RanchiMall Messenger is a decentralized communication platform designed to combine chat, mail, and blockchain-based multisig transactions—all within a secure, privacy-focused interface. The goal was to create a walletless, user-friendly dApp experience that feels familiar yet offers the power of blockchain under the hood.",
+          "The core challenge was to unify these fragmented services and abstract away the technical complexity that often serves as a barrier to user adoption in the blockchain space."
+        ],
+        "role": {
+          "title": "My Role: Lead Architect & UI/UX Designer",
+          "description": "Built entirely with native Web Components and vanilla JavaScript, this project pushed the boundaries of what’s possible in the browser without any framework overhead.",
+          "contributions": [
+            {
+              "title": "UI/UX Design",
+              "description": "Designed an intuitive interface that seamlessly integrates chat, mail, and multisig transaction functionalities, ensuring a user-friendly experience across devices."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Implemented the application using native Web Components and JavaScript, focusing on performance, responsiveness, and a modular architecture."
+            },
+            {
+              "title": "Blockchain Integration",
+              "description": "Integrated FLO blockchain features to enable decentralized messaging and multisig transactions without requiring users to download a wallet."
+            }
+          ]
+        }
+      },
+      {
+        "type": "process",
+        "title": "The Process: From Technical Challenge to Seamless Experience",
+        "description": "The primary goal was to abstract away the complexity of the blockchain and present a familiar interface to the user.",
+        "phases": [
+          {
+            "title": "Phase 1: Architecting a 'Walletless' Experience",
+            "description": "The biggest UX challenge was removing the need for browser extensions. I designed an onboarding flow where user identities are derived from a securely generated public and private key pair, lowering the barrier to entry significantly.",
+            "media": {
+              "type": "image",
+              "src": "/images/ranchimall-messenger/auth-flow.png",
+              "alt": "A diagram illustrating the walletless user authentication flow"
+            }
+          },
+          {
+            "title": "Phase 2: Designing a Unified & Contextual Interface",
+            "description": "I intentionally adopted a familiar three-column layout (like Slack or Telegram) to make users feel comfortable. Complex actions like transactions are placed contextually within a chat, making them feel like a natural part of the conversation.",
+            "media": {
+              "type": "image",
+              "src": "/images/ranchimall-messenger/chat.png",
+              "alt": "A screenshot of the chat interface"
+            }
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Impact: Proving the Viability of User-Friendly dApps",
+        "description": "RanchiMall Messenger successfully demonstrates that the power of blockchain does not have to come at the cost of user experience.",
+        "highlights": [
+          "Seamless integration of chat, mail, and multisig transaction features in a single platform.",
+          "Walletless architecture allowing users to interact with blockchain functionalities directly from the browser.",
+          "Responsive design ensuring optimal user experience across various devices."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project exemplifies the potential of combining blockchain technology with user-centric design to create secure and decentralized communication platforms.",
+          "It highlights the importance of intuitive UI/UX in facilitating user adoption of complex technologies.",
+          "Building with native web technologies can lead to significant performance and maintainability gains for complex applications."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ranchimall-wallet",
+    "slug": "ranchimall-wallet",
+    "type": "web-app",
+    "title": "A Lightweight, Multi-Functional Crypto Utility: View, Send, and Convert with Ease",
+    "subtitle": "A client-side suite of tools allowing users to inspect addresses, construct transactions, and convert keys for multiple blockchains within a single, framework-free interface.",
+    "heroImage": "/images/ranchimall-wallet/hero.jpeg",
+    "link": "https://ranchimall.github.io/btcwallet",
+    "tags": ["Utility Suite", "Web Components", "Blockchain", "UI/UX"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Problem: The Need for a 'Swiss Army Knife' for Crypto",
+        "content": [
+          "Crypto power users often need to use multiple, separate tools for viewing wallets, sending transactions, and converting keys. This process is inefficient and raises privacy concerns.",
+          "The goal was to create a single, lightweight 'Swiss Army knife' that combines these essential utilities into one fast, private, and cohesive application that runs entirely in the browser."
+        ],
+        "role": {
+          "title": "My Role: Lead UI/UX Designer & Front-End Developer",
+          "description": "I was responsible for designing the unified user experience and developing the entire front-end application from scratch.",
+          "contributions": [
+            {
+              "title": "UI/UX Design",
+              "description": "Designed a clean, tab-based interface to seamlessly integrate three distinct functions (Address Viewer, Transaction Sender, Key Converter)."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Engineered the application using native Web Components and vanilla JavaScript for maximum performance and zero dependencies."
+            },
+            {
+              "title": "API & Blockchain Integration",
+              "description": "Integrated a public blockchain explorer API for data fetching and implemented client-side logic for transaction creation and cryptographic key conversion."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "A Cohesive, Multi-Functional Interface",
+        "description": "The application was designed with a clear, task-based navigation to house three distinct tools in one place without causing confusion.",
+        "images": [
+          {
+            "src": "/images/ranchimall-wallet/viewer.png",
+            "caption": "The 'Address' tab provides a clean, data-first view of any public wallet."
+          },
+          {
+            "src": "/images/ranchimall-wallet/sender.png",
+            "caption": "The 'Send' tab offers a clear, step-by-step form for transaction creation."
+          },
+          {
+            "src": "/images/ranchimall-wallet/converter.png",
+            "caption": "The 'Convert' tab is a simple utility for cross-chain key and address conversion."
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Fast, Private, and Versatile Crypto Toolkit",
+        "description": "The result is a powerful, client-side toolkit that empowers users to perform the most common crypto tasks with speed and confidence.",
+        "highlights": [
+          "Multi-Functional: Seamlessly combines an address viewer, transaction builder, and a cross-chain key converter.",
+          "High-Performance & Private: Built as a lightweight, framework-free web app that operates entirely on the client-side.",
+          "Intuitive UI: Makes complex actions like transaction creation and data inspection simple and accessible."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "Combining several related, high-frequency tasks into a single, efficient tool creates immense value for users.",
+          "A strong, simple information architecture is essential when designing multi-functional applications to prevent user confusion.",
+          "Modern browsers are capable of handling complex cryptographic operations, enabling powerful and private client-side tools."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "think-circular",
+    "slug": "think-circular",
+    "type": "brand-site",
+    "title": "Designing for Impact: Translating Sustainable Fashion Solutions into a Compelling Digital Platform",
+    "subtitle": "A mission-driven project using clear UX and custom illustration to advocate for a circular fashion economy.",
+    "heroImage": "/images/think-circular/hero.jpeg",
+    "link": "https://www.think-circular.co.uk/",
+    "tags": ["Social Impact", "UI/UX", "Illustration", "Wix"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Problem: The Fashion Industry's Waste Crisis",
+        "content": [
+          "Think Circular is a UK-based initiative dedicated to transforming the fashion industry through sustainable, circular solutions. Their services include stock exit strategies, de-labeling, re-commerce, recycling, repair, and returns management.",
+          "The challenge was to create a digital platform that could effectively communicate the urgency of this complex issue and clearly present Think Circular's multifaceted services to potential partners."
+        ],
+        "role": {
+          "title": "My Role: UI/UX Designer, Illustrator, & Front-End Developer",
+          "description": "I was responsible for translating their mission into a compelling online experience, from initial design to final implementation.",
+          "contributions": [
+            {
+              "title": "UI/UX Design",
+              "description": "Crafted a user-centric layout that guides visitors through the challenges of the fashion industry and Think Circular's solutions, emphasizing clarity and ease of navigation."
+            },
+            {
+              "title": "Illustration & Graphics",
+              "description": "Designed custom illustrations and icons to visually represent key statistics and services, such as the number of garments produced annually. These visuals aid in storytelling and data comprehension."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Implemented the design on the Wix platform, ensuring responsiveness across devices and integrating interactive elements to maintain brand consistency."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Visual Storytelling Through Data & Icons",
+        "description": "To make the complex data feel urgent and the services easy to understand, I created a full set of custom graphics and icons.",
+        "images": [
+          {
+            "src": "/images/think-circular/stats-graphic.png",
+            "caption": "Bold data visualizations to highlight the scale of the problem."
+          },
+          {
+            "src": "/images/think-circular/service-icons.png",
+            "caption": "A unique, custom icon for each of the six core services."
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: An Informative and Action-Oriented Platform",
+        "description": "The final website effectively communicates Think Circular's mission and services by combining thoughtful UX design, custom illustrations, and responsive development.",
+        "highlights": [
+          "Impactful Storytelling: The homepage presents compelling statistics to immediately convey the urgency of the issue.",
+          "Clear Service Breakdown: Each service is detailed with accompanying visuals, providing clear information on how Think Circular addresses the circular economy.",
+          "High User Engagement: Integrated contact forms and a persistent WhatsApp link facilitate easy communication and encourage action."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project exemplifies the fusion of design and development to create a platform that not only informs but also inspires action.",
+          "For data-heavy topics, custom illustrations are far more effective at storytelling and aiding comprehension than text alone.",
+          "A clear narrative structure is essential for guiding users through a complex topic and leading them toward a desired action."
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "olde-worlde",
+    "slug": "olde-worlde",
+    "type": "ecommerce",
+    "title": "Crafting an Authentic E-commerce Experience for Vintage-Inspired Homeware",
+    "subtitle": "A branding and e-commerce project to design and build a Shopify store that blends timeless aesthetics with a seamless, modern shopping experience.",
+    "heroImage": "/images/olde-worlde/hero.webp",
+    "link": "https://www.oldeworlde.eu/",
+    "tags": ["Branding", "UI/UX", "Shopify", "E-commerce"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Opportunity: Bringing Timeless Charm to Modern E-commerce",
+        "content": [
+          "Olde Worlde is an artisan-inspired ecommerce brand offering vintage-style ironmongery, lighting, and homeware. The goal was to design a store that felt timeless and authentic—reflecting the heritage and craftsmanship behind each product, while still providing an intuitive modern shopping experience."
+        ],
+        "role": {
+          "title": "My Role: Brand Designer, UI/UX Designer, & Shopify Developer",
+          "description": "I was responsible for the end-to-end execution, ensuring a cohesive experience from the logo to the checkout button.",
+          "contributions": [
+            {
+              "title": "Brand Identity",
+              "description": "Crafted a distinct brand identity that evokes the charm of vintage craftsmanship, including logo, color palette, and typography direction."
+            },
+            {
+              "title": "UI/UX Design",
+              "description": "Designed a clean and elegant layout that balances old-world aesthetics with modern usability, focusing on clear product presentation and seamless Browse."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Implemented the design using Shopify's templating system, customizing layouts and styling for responsiveness, and ensuring smooth performance and shopping flow."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Forging the Brand Identity & User Experience",
+        "description": "The brand and UI were designed in tandem to create a cohesive and authentic feel, balancing classic aesthetics with modern clarity.",
+        "images": [
+          {
+            "src": "/images/olde-worlde/brand-identity.png",
+            "caption": "The logo, color palette, and typography set the vintage-inspired tone."
+          },
+          {
+            "src": "/images/olde-worlde/ui-screens.png",
+            "caption": "Product pages feature large images and clean layouts to showcase craftsmanship."
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Charming and Intuitive Shopify Store",
+        "description": "The final result is an e-commerce experience that perfectly mirrors the Olde Worlde brand ethos, inviting users to explore its curated collection.",
+        "highlights": [
+          "Vintage-inspired branding and visual storytelling throughout the store.",
+          "Well-organized product categories that guide users effortlessly to their needs.",
+          "Fully responsive and accessible experience across all modern devices."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "Olde Worlde demonstrates how thoughtful design and tailored development can create an ecommerce experience that feels both charming and intuitive.",
+          "From brand to cart, every detail was crafted to match the warmth and quality of the products themselves.",
+          "Balancing a unique aesthetic with e-commerce best practices is key to building a successful online store for a niche brand."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cabinhold",
+    "slug": "cabinhold",
+    "type": "ecommerce",
+    "title": "Building a Sustainable Brand: A Clean & Conscious Shopify Experience",
+    "subtitle": "An eco-conscious travel luggage store with clean branding and Shopify implementation, built around sustainability and user-friendly shopping.",
+    "heroImage": "/images/cabinhold/hero.png",
+    "link": "https://cabinhold.com",
+    "tags": ["Branding", "UI/UX", "Shopify", "E-commerce"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Opportunity: Cutting Through the Noise in the Travel Gear Market",
+        "content": [
+          "CabinHold is a UK-founded brand offering compact, airline-compatible backpacks made from recycled materials. The goal was to develop its visual identity and implement a full storefront on Shopify, designed to highlight product features, eco values, and a smooth e-commerce flow."
+        ],
+        "role": {
+          "title": "My Role: Brand Designer, UI/UX Designer, & Shopify Developer",
+          "description": "I led the project from concept to launch, ensuring the brand's sustainable ethos was reflected in every aspect of the final product.",
+          "contributions": [
+            {
+              "title": "Brand Identity",
+              "description": "Created a minimalist logo, color palette, and visual style aligned with eco-aware travel aesthetics."
+            },
+            {
+              "title": "UI/UX Design",
+              "description": "Designed clean product listings and intuitive checkout flows, focusing on sustainable features and easy Browse."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Built the Shopify site from concept to launch, customizing the theme, mobile views, and product sections for speed and usability."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Designing for Trust and Clarity",
+        "description": "The brand and UI were designed to be clean, honest, and easy to understand, mirroring the brand's sustainable values.",
+        "images": [
+          {
+            "src": "/images/cabinhold/brand-identity.png",
+            "caption": "A minimalist logo and catchy color palette creates a fresh, eco-conscious vibe."
+          },
+          {
+            "src": "/images/cabinhold/ui-screens.png",
+            "caption": "Product pages clearly highlight key features like recycled materials."
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Clean, Conscientious, and High-Converting Store",
+        "description": "The final Shopify store successfully launches the CabinHold brand with a digital presence that is as thoughtful and well-designed as its products.",
+        "highlights": [
+          "Sustainability messaging with visual clarity, reflecting eco-friendly materials and compact sizing.",
+          "Straightforward Shopify build with clean navigation, fast product Browse, and responsive layout.",
+          "Consistent design system integrating product visuals, iconography, and user-focused copy."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project shows how branding and design can elevate a product story—by blending visual clarity, eco values, and a streamlined Shopify experience.",
+          "For a DTC brand, clearly communicating the 'why' behind the product is just as important as the product itself.",
+          "A minimalist design approach builds trust and helps focus the user's attention on the product's quality and core message."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "standard-ui-components",
+    "slug": "standard-ui-components",
+    "type": "design-system",
+    "title": "Building a Framework-Agnostic Design System with Native Web Components",
+    "subtitle": "A foundational project to create a reusable, standards-based UI component library designed to accelerate development, ensure consistency, and eliminate framework dependency.",
+    "heroImage": "/images/standard-ui/hero.png",
+    "link": "https://ranchimall.github.io/standard-ui/components/",
+    "tags": ["Design System", "UI Library", "Web Components", "JavaScript"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Problem: The High Cost of Inconsistency and Framework Lock-in",
+        "content": [
+          "Standard UI is a lightweight, framework-agnostic library of native Web Components designed to simplify modern front-end development. The goal was to provide developers with reusable, accessible, and performant UI building blocks—without relying on frameworks or complex tooling that lead to inconsistency and technical debt."
+        ],
+        "role": {
+          "title": "My Role: UI Design System Architect & Front-End Developer",
+          "description": "I was responsible for the entire lifecycle, from high-level strategy to the implementation of each component.",
+          "contributions": [
+            {
+              "title": "Design System",
+              "description": "Defined a cohesive set of UI components with consistent styling, behavior, and accessibility patterns to support scalable application development."
+            },
+            {
+              "title": "Component Design",
+              "description": "Designed and prototyped individual components (buttons, inputs, modals, etc.) with clear API and customization options."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Implemented each component using native Web Components standards (Custom Elements, Shadow DOM), vanilla JavaScript, and CSS, ensuring performance and interoperability."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Architecting for Reusability and Longevity",
+        "description": "The system was built on the stable foundation of the web platform itself, with a clear token-based design.",
+        "images": [
+          {
+            "src": "/images/standard-ui/typography.png",
+            "caption": "The typographic system"
+          },
+          {
+            "src": "/images/standard-ui/spacing.png",
+            "caption": "The spacing system"
+          },
+          {
+            "src": "/images/standard-ui/color-palette.png",
+            "caption": "The color palette"
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Lightweight, Standards-Based Component Library",
+        "description": "The final product is a fully documented library of framework-agnostic components, showcased on a dedicated demo site with interactive examples.",
+        "highlights": [
+          "Standards-compliant components built with Custom Elements and Shadow DOM for encapsulation.",
+          "Fully documented demo site showcasing every component with interactive examples.",
+          "Lightweight, framework-agnostic, and optimized for accessibility and modular use."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project exemplifies the power of native Web Components to build a robust, reusable design system without frameworks.",
+          "It underscores the importance of standards-based development, modularity, and documentation in scalable UI architecture.",
+          "A well-architected design system solves business problems by increasing development speed and reducing maintenance costs."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cybernetics-robotics",
+    "slug": "cybernetics-robotics",
+    "type": "brand-site",
+    "title": "Building Credibility for Complex Tech: A Digital Platform for AI & Robotics Solutions",
+    "subtitle": "An AI, robotics & computer-vision solutions site built for Cybernetics — featuring intuitive design, clear service presentation, and engaging branding.",
+    "heroImage": "/images/cybernetics/hero.png",
+    "link": "https://www.cybernetics.lt/",
+    "tags": ["B2B", "Branding", "UI/UX", "Webflow"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Opportunity: Making Advanced Technology Accessible",
+        "content": [
+          "Cybernetics is a Kaunas-based technology company offering AI computer vision, robotic automation, and custom prototyping solutions. The project goal was to create a digital presence that communicates technical credibility while remaining approachable to industrial clients."
+        ],
+        "role": {
+          "title": "My Role: Brand Designer, UI/UX Designer, & Webflow Developer",
+          "description": "I led the project from branding and visual identity through to a fully responsive Webflow site.",
+          "contributions": [
+            {
+              "title": "Brand Identity",
+              "description": "Developed a clean and modern visual identity with touches of tech-inspired design, including custom logo and color palette."
+            },
+            {
+              "title": "UI/UX Design",
+              "description": "Structured service pages to clearly outline AI vision, robotics, and prototype offerings. Crafted intuitive layouts and navigation to guide industrial clients with clarity."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Implemented the design using Webflow, building out CMS structures, service sections, and interactive elements to present advanced technology in a simple, professional format."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Designing for Trust and Clarity",
+        "description": "The brand and UI were designed to demystify complex technology and build professional credibility with a B2B audience.",
+        "images": [
+          {
+            "src": "/images/cybernetics/service-pages.png",
+            "caption": "Service pages are structured to clearly explain benefits to industrial clients."
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Professional and Approachable Digital Gateway",
+        "description": "The final Webflow site serves as a clear digital front door for Cybernetics, effectively communicating their value to their target audience.",
+        "highlights": [
+          "Straightforward presentation of technical services like AI vision and robotic solutions.",
+          "Professional branding that balances precision and accessibility.",
+          "Responsive and informative layout optimized for industrial and B2B audiences."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project demonstrates how thoughtful design and branding can make complex technology accessible and trustworthy.",
+          "By aligning visual identity, content, and development on Webflow, the site delivers a clear, professional, and scalable experience.",
+          "For B2B tech, the primary goal of a website is to build trust and initiate a conversation."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exchange-market",
+    "slug": "exchange-market",
+    "type": "web-app",
+    "title": "High-Performance Crypto Tracking: A Real-Time Exchange Interface Built with Web Components",
+    "subtitle": "A real-time cryptocurrency exchange interface displaying live market data, built with a focus on performance and standards-based technology.",
+    "heroImage": "/images/exchange-market/hero.png",
+    "link": "https://ranchimall.github.io/exchangemarket",
+    "tags": ["UI/UX", "Web Components", "Real-Time Data", "JavaScript"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Problem: The Performance Lag in Real-Time Data Interfaces",
+        "content": [
+          "Exchange Market is a front-end application that provides a real-time, data-driven view of cryptocurrency trading pairs. The project was conceived as a lightweight, high-performance interface for tracking markets, built entirely with native Web Components to create a modular and efficient market tracker without the overhead of a large framework."
+        ],
+        "role": {
+          "title": "My Role: UI/UX Designer & Front-End Developer",
+          "description": "I was responsible for designing a data-centric interface and architecting the front-end for maximum performance.",
+          "contributions": [
+            {
+              "title": "UI/UX Design",
+              "description": "Designed a clean, data-centric interface that prioritizes clarity and at-a-glance readability of market statistics. Implemented a responsive layout and a theme-switcher for user comfort (light/dark modes)."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Engineered the application using native Web Components, ensuring a performant, real-time data display. Architected the app for modularity, making individual components reusable and easy to maintain."
+            },
+            {
+              "title": "Data Integration",
+              "description": "Connected the front-end components to a live data source to fetch and display real-time cryptocurrency exchange rates, volumes, and spreads."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Architecting for Speed and Data Clarity",
+        "description": "The UI and architecture were focused on instant data delivery and a clear presentation, including user-centric features like a theme switcher.",
+        "images": [
+          {
+            "src": "/images/exchange-market/light-dark-modes.png",
+            "caption": "The UI was designed with a theme switcher for user comfort during long sessions."
+          },
+          {
+            "src": "/images/exchange-market/data-clarity.png",
+            "caption": "A clean, data-centric layout prioritizes at-a-glance readability."
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Modular and Lightning-Fast Market Tracker",
+        "description": "The result is a high-performance web application that provides a real-time, data-driven view of cryptocurrency trading pairs.",
+        "highlights": [
+          "Real-time data visualization for multiple cryptocurrency exchange pairs.",
+          "Built with native Web Components for exceptional performance and encapsulation, free from framework dependencies.",
+          "Features a user-friendly light/dark mode theme switcher for enhanced visual comfort.",
+          "Fully responsive design that adapts to various screen sizes."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project highlights the power of vanilla JavaScript and Web Components for building high-performance, real-time financial data applications.",
+          "It demonstrates that for data-intensive UIs, a lightweight, standards-based approach can offer significant advantages in speed and modularity.",
+          "Simple user-centric features, like a theme switcher, can dramatically improve the usability of data-heavy applications."
+        ]
+      }
+    ]
+  }
+]

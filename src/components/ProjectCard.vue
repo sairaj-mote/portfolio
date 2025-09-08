@@ -4,12 +4,12 @@ import { ExternalLink, ChevronRight } from 'lucide-vue-next'
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-const { name, tags, link, description, id, platform } = defineProps({
-  name: String,
+const { title, tags, link, subtitle, id, platform } = defineProps({
+  title: String,
   thumbnail: String,
   tags: Array,
   link: String,
-  description: String,
+  subtitle: String,
   id: String,
   platform: String,
   heroImage: String,
@@ -34,22 +34,19 @@ const { stop } = useIntersectionObserver(
 <template>
   <li
     ref="target"
-    :key="name"
+    :key="title"
     class="relative flex flex-col md:flex-row-reverse gap-4 rounded-xl transition duration-500 ease-in-out md:bg-gray-50 md:p-6 md:border-1 border-gray-200"
     :class="`${targetIsVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-95'}`"
   >
     <div class="flex relative flex-1">
-      <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="name" loading="lazy" />
+      <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="title" loading="lazy" />
     </div>
-    <img
-      class="absolute top-0 right-0 w-16 h-16 bg-gray-100 object-contain p-4 rounded-xl"
-      :src="`/icons/platforms/${platform}.svg`"
-      :alt="`${platform} icon`"
-    />
     <div class="flex flex-col gap-4 flex-1">
-      <h2 class="text-2xl font-bold">
-        {{ name }}
-      </h2>
+      <RouterLink :to="`/projects/${id}`" class="hover:underline">
+        <h2 class="text-2xl font-bold">
+          {{ title }}
+        </h2>
+      </RouterLink>
       <div class="flex gap-1 flex-wrap">
         <p
           class="text-sm bg-gray-200 py-1 px-2 rounded text-gray-700"
@@ -59,7 +56,7 @@ const { stop } = useIntersectionObserver(
           {{ tag }}
         </p>
       </div>
-      <p class="text-gray-700 text-lg whitespace-pre-line">{{ description }}</p>
+      <p class="text-gray-700 text-lg whitespace-pre-line">{{ subtitle }}</p>
       <div class="flex gap-2">
         <a
           v-if="link"

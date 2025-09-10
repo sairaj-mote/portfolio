@@ -215,6 +215,81 @@
     ]
   },
   {
+    "id": "standard-ui-components",
+    "slug": "standard-ui-components",
+    "type": "design-system",
+    "title": "Building a Framework-Agnostic Design System with Native Web Components",
+    "subtitle": "A foundational project to create a reusable, standards-based UI component library designed to accelerate development, ensure consistency, and eliminate framework dependency.",
+    "heroImage": "/images/standard-ui/hero.png",
+    "link": "https://ranchimall.github.io/standard-ui/components/",
+    "tags": ["Design System", "UI Library", "Web Components", "JavaScript"],
+    "sections": [
+      {
+        "type": "intro",
+        "title": "The Problem: The High Cost of Inconsistency and Framework Lock-in",
+        "content": [
+          "Standard UI is a lightweight, framework-agnostic library of native Web Components designed to simplify modern front-end development. The goal was to provide developers with reusable, accessible, and performant UI building blocks—without relying on frameworks or complex tooling that lead to inconsistency and technical debt."
+        ],
+        "role": {
+          "title": "My Role: UI Design System Architect & Front-End Developer",
+          "description": "I was responsible for the entire lifecycle, from high-level strategy to the implementation of each component.",
+          "contributions": [
+            {
+              "title": "Design System",
+              "description": "Defined a cohesive set of UI components with consistent styling, behavior, and accessibility patterns to support scalable application development."
+            },
+            {
+              "title": "Component Design",
+              "description": "Designed and prototyped individual components (buttons, inputs, modals, etc.) with clear API and customization options."
+            },
+            {
+              "title": "Front-End Development",
+              "description": "Implemented each component using native Web Components standards (Custom Elements, Shadow DOM), vanilla JavaScript, and CSS, ensuring performance and interoperability."
+            }
+          ]
+        }
+      },
+      {
+        "type": "gallery",
+        "title": "Architecting for Reusability and Longevity",
+        "description": "The system was built on the stable foundation of the web platform itself, with a clear token-based design.",
+        "images": [
+          {
+            "src": "/images/standard-ui/typography.png",
+            "caption": "The typographic system"
+          },
+          {
+            "src": "/images/standard-ui/spacing.png",
+            "caption": "The spacing system"
+          },
+          {
+            "src": "/images/standard-ui/color-palette.png",
+            "caption": "The color palette"
+          }
+        ]
+      },
+      {
+        "type": "impact",
+        "title": "The Solution: A Lightweight, Standards-Based Component Library",
+        "description": "The final product is a fully documented library of framework-agnostic components, showcased on a dedicated demo site with interactive examples.",
+        "highlights": [
+          "Standards-compliant components built with Custom Elements and Shadow DOM for encapsulation.",
+          "Fully documented demo site showcasing every component with interactive examples.",
+          "Lightweight, framework-agnostic, and optimized for accessibility and modular use."
+        ]
+      },
+      {
+        "type": "learnings",
+        "title": "Key Takeaways",
+        "points": [
+          "This project exemplifies the power of native Web Components to build a robust, reusable design system without frameworks.",
+          "It underscores the importance of standards-based development, modularity, and documentation in scalable UI architecture.",
+          "A well-architected design system solves business problems by increasing development speed and reducing maintenance costs."
+        ]
+      }
+    ]
+  },
+  {
     "id": "think-circular",
     "slug": "think-circular",
     "type": "brand-site",
@@ -425,81 +500,6 @@
           "This project shows how branding and design can elevate a product story—by blending visual clarity, eco values, and a streamlined Shopify experience.",
           "For a DTC brand, clearly communicating the 'why' behind the product is just as important as the product itself.",
           "A minimalist design approach builds trust and helps focus the user's attention on the product's quality and core message."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "standard-ui-components",
-    "slug": "standard-ui-components",
-    "type": "design-system",
-    "title": "Building a Framework-Agnostic Design System with Native Web Components",
-    "subtitle": "A foundational project to create a reusable, standards-based UI component library designed to accelerate development, ensure consistency, and eliminate framework dependency.",
-    "heroImage": "/images/standard-ui/hero.png",
-    "link": "https://ranchimall.github.io/standard-ui/components/",
-    "tags": ["Design System", "UI Library", "Web Components", "JavaScript"],
-    "sections": [
-      {
-        "type": "intro",
-        "title": "The Problem: The High Cost of Inconsistency and Framework Lock-in",
-        "content": [
-          "Standard UI is a lightweight, framework-agnostic library of native Web Components designed to simplify modern front-end development. The goal was to provide developers with reusable, accessible, and performant UI building blocks—without relying on frameworks or complex tooling that lead to inconsistency and technical debt."
-        ],
-        "role": {
-          "title": "My Role: UI Design System Architect & Front-End Developer",
-          "description": "I was responsible for the entire lifecycle, from high-level strategy to the implementation of each component.",
-          "contributions": [
-            {
-              "title": "Design System",
-              "description": "Defined a cohesive set of UI components with consistent styling, behavior, and accessibility patterns to support scalable application development."
-            },
-            {
-              "title": "Component Design",
-              "description": "Designed and prototyped individual components (buttons, inputs, modals, etc.) with clear API and customization options."
-            },
-            {
-              "title": "Front-End Development",
-              "description": "Implemented each component using native Web Components standards (Custom Elements, Shadow DOM), vanilla JavaScript, and CSS, ensuring performance and interoperability."
-            }
-          ]
-        }
-      },
-      {
-        "type": "gallery",
-        "title": "Architecting for Reusability and Longevity",
-        "description": "The system was built on the stable foundation of the web platform itself, with a clear token-based design.",
-        "images": [
-          {
-            "src": "/images/standard-ui/typography.png",
-            "caption": "The typographic system"
-          },
-          {
-            "src": "/images/standard-ui/spacing.png",
-            "caption": "The spacing system"
-          },
-          {
-            "src": "/images/standard-ui/color-palette.png",
-            "caption": "The color palette"
-          }
-        ]
-      },
-      {
-        "type": "impact",
-        "title": "The Solution: A Lightweight, Standards-Based Component Library",
-        "description": "The final product is a fully documented library of framework-agnostic components, showcased on a dedicated demo site with interactive examples.",
-        "highlights": [
-          "Standards-compliant components built with Custom Elements and Shadow DOM for encapsulation.",
-          "Fully documented demo site showcasing every component with interactive examples.",
-          "Lightweight, framework-agnostic, and optimized for accessibility and modular use."
-        ]
-      },
-      {
-        "type": "learnings",
-        "title": "Key Takeaways",
-        "points": [
-          "This project exemplifies the power of native Web Components to build a robust, reusable design system without frameworks.",
-          "It underscores the importance of standards-based development, modularity, and documentation in scalable UI architecture.",
-          "A well-architected design system solves business problems by increasing development speed and reducing maintenance costs."
         ]
       }
     ]

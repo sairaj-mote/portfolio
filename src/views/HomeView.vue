@@ -103,7 +103,7 @@ function handleKeydown(e) {
         <div class="text-4xl md:text-8xl font-bold uppercase">Product Designer</div>
       </h1>
       <img
-        src="/me.png"
+        src="/me.webp"
         class="aspect-square object-cover rounded-2xl w-[20rem] md:w-[46rem] z-10 drop-shadow-2xl"
         alt="Sairaj Mote Profile Picture"
       />

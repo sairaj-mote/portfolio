@@ -18,16 +18,13 @@ const { title, tags, link, subtitle, id, platform } = defineProps({
 const target = ref(null)
 const targetIsVisible = ref(false)
 
-const { stop } = useIntersectionObserver(
+useIntersectionObserver(
   target,
   ([entry]) => {
     targetIsVisible.value = entry?.isIntersecting || false
-    if (entry.isIntersecting) {
-      stop()
-    }
   },
   {
-    threshold: 0.2,
+    threshold: 0.6,
   },
 )
 </script>
@@ -36,7 +33,7 @@ const { stop } = useIntersectionObserver(
     ref="target"
     :key="title"
     class="relative flex flex-col md:flex-row-reverse gap-4 rounded-xl transition duration-500 ease-in-out md:bg-gray-50 md:p-6 md:border-1 border-gray-200"
-    :class="`${targetIsVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-95'}`"
+    :class="`${targetIsVisible ? 'scale-100' : 'scale-95'}`"
   >
     <div class="flex relative flex-1">
       <img class="w-full object-contain rounded-xl" :src="heroImage" :alt="title" loading="lazy" />

@@ -4,7 +4,7 @@ import { ExternalLink, ChevronRight } from 'lucide-vue-next'
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-const { title, tags, link, subtitle, id, platform } = defineProps({
+const { title, tags, link, subtitle, id } = defineProps({
   title: String,
   thumbnail: String,
   tags: Array,
